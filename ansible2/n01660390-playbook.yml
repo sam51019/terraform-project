@@ -1,0 +1,9 @@
+---
+- hosts: linux_vms
+  become: yes
+  gather_facts: yes
+  roles:
+    - profile-n01660390
+    - user-n01660390
+    - datadisk-n01660390
+    - webserver-n01660390
